@@ -25,6 +25,7 @@ function App() {
         <div className="cont-2">
           {InformationCourse.map((course) => (
             <ShowInfoCard
+              key={course.id}
               step={course.step}
               title={course.title}
               desc={course.description}

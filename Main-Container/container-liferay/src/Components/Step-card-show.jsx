@@ -8,10 +8,14 @@ export default function ShowInfoCard({ step, title, desc, time }) {
             <span className="video-content"></span>Step {step}
           </span>
         </div>
-        <h1>{title}</h1>
-        <p>{desc}</p>
-        <div className="sub-info-card">
-          <span className="time-content-card">{time}</span>
+        <div className="content-text">
+          <div>
+            <h1>{title}</h1>
+            <p>{desc}</p>
+          </div>
+          <div className="sub-info-card">
+            <span className="time-content-card">{time}</span>
+          </div>
         </div>
       </div>
     </li>
